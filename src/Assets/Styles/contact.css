@@ -1,0 +1,84 @@
+.form-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact {
+    background-color: #ffffff;
+    border-top: 3px solid #f3f3f3;
+    height: 50vh;
+    padding-bottom: 5rem;
+    padding-top: 5%;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.firstFormFragment, .secondFormFragment, .thirdFormFragment{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+    font-size: 20px;
+}
+
+
+.title-contact {
+    text-shadow:
+    0.05em 0.05em 0  #eb5783;
+    color: #DEBF8A;
+    font-size: 55px;
+    text-align: center;
+}
+
+.title-mini {
+    color: #DEBF8A;
+    font-size: 30px;
+}
+
+.FormFragment-input {
+    border: none;
+    outline: none;
+    background-color: #dad6d6;
+    border-radius: 5px 5px 0px 0px;
+    width: 25em;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+
+.FormFragment-input:focus, .FormFragment-textarea:focus {
+    border-bottom: 3px solid #DEBF8A; 
+}
+
+.FormFragment-textarea {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: #dad6d6;
+    border-radius: 5px;
+    width: 25em;
+    height: 4rem;
+}
+
+.FormFragment-button {
+    color: #2f2f2f;
+    border: none;
+    outline: none;
+    width: calc(25em/2);
+    background-color: #dad6d6;
+    border-radius: 5rem;
+    height: 2.5rem;
+
+}
+
+.icons {
+    width: 100px;
+    z-index: 12000;
+}

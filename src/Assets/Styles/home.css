@@ -10,12 +10,16 @@
     0.05em 0.05em 0  #eb5783;
     font-size: 52px;
     color: #ffce8d;
+    user-select: none;
 }
 .home-p {
     font-size: 32px;
     width: 35%;
 }
-
+.paragraph.home {
+    margin-top: -1rem;
+    width: 35%;
+}
 .polaroid{
     width: 35%;
     display: flex;
@@ -23,11 +27,16 @@
 }
 
 .box {
+    background-image: url('../Imgs/BoloTeste.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
     background-color: #C4C4C4;
-    width: fit-content;
+    width: 20%;
     border-radius: 12px;
-    height: 10%;
-    padding: 2.5rem;
+    height: 15%;
+    padding: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -43,6 +52,20 @@
 #picture4 {
     transform: rotate(-4deg);
 }
+
+#picture1:hover {
+    transform: rotate(6deg);
+}
+#picture2:hover {
+    transform: rotate(-7deg);
+}
+#picture3:hover {
+    transform: rotate(5deg);
+}
+#picture4:hover {
+    transform: rotate(-5deg);
+}
+
 
 
 #mark:hover {

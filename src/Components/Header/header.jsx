@@ -11,9 +11,9 @@ export default function Header() {
             </div>
         <div className="header-nav">
            <ul className="header-nav--list">
-               <li className="header-nav--item"><a href="https://google.com/">Home</a></li>
-               <li className="header-nav--item"><a href="https://google.com/">Catalogo</a></li>
-               <li className="header-nav--item"><a href="https://google.com/">Contato</a></li>
+               <li className="header-nav--item"><a href="#home">Home</a></li>
+               <li classN ame="header-nav--item g"><a href="#galeria">Galeria</a></li>
+               <li className="header-nav--item"><a href="#contato">Contato</a></li>
            </ul>
            </div>
         </div>

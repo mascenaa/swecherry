@@ -1,6 +1,7 @@
 import React from 'react'
 
 import '../../Assets/Styles/gallery.css'
+import '../../Assets/GlobalStyles/global.css'
 import Box from '../Box/boxGallery'
 
 
@@ -10,8 +11,8 @@ export default function Gallery() {
     return (
 
     <>
-        <section className="gallery-body">
-            <h1 className="gallery-title">Galeria</h1>
+        <section id="galeria" className="gallery-body">
+            <h1 className="title gallery">Galeria</h1>
         
                 <div className="gallery-options">
                     <button className="gallery-options--button active">Bolos Tradicionais</button>

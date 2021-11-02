@@ -1,14 +1,11 @@
 .gallery-body {
-    border-top: 3px solid #e9e9e9;
+    border-top: 3px solid #f3f3f3;
     height: fit-content;
     padding-bottom: 2rem;
-    background-color: #f0f0f0;
+    background-color: #fbfbfb;
 }
-.gallery-title {
-    text-shadow:
-    0.05em 0.05em 0  #eb5783;
-    font-size: 52px;
-    color: #ffce8d;
+
+.title.gallery {
     text-align: center;
 }
 
@@ -21,27 +18,41 @@
     margin-bottom: 4rem;
 }
 .gallery-options--button{
-    margin-right: 10px;
-    height: 3rem;
-    width: 10rem;
+    
+    height: 71px;
+    width: 120px;
+    padding: 10px 8px 10px 8px;
     border: none;
-    border-left: 1px solid #efeff8;
+    border-left: 2px solid #EBEBF0;
     background: #FFFFFF;
-    border-radius: 12px;
+    
 }
 
 .gallery-options--button:hover{
     background: #cfcdcd;
+    cursor: pointer;
+    
 }
 
 .gallery-options--button.active {
     border: none;
-    background-color: #e0e0e7;
+    background-color: #EBEBF0;
+}
+
+.gallery-options--button:first-child {
+    outline-width: 12px;
+    border-radius: 10px 0 0 10px;
+}
+.gallery-options--button:last-child {
+    
+    border-radius: 0 10px 10px 0;
+    outline-width: 12px;
 }
 
 .columns {
     display: flex;
     flex-direction: column;
+    
 }
 
 .column1 {
@@ -81,21 +92,12 @@
      }
      .gallery-options{ 
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
-     .column1{
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-     }
-     .column2{
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-     }
-     .column3{
+     .column1, .column2, .column3{
         width: 40%;
         display: flex;
         flex-direction: column;
      }
 }
+
