@@ -1,0 +1,11 @@
+.Box {
+    text-align: center;
+    color: #1a1616;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    border: 2px solid #A0CFD4;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
