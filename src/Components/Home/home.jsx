@@ -18,7 +18,7 @@ export default function Home() {
         };
         if(hora <= 17) {
             return(
-                <p className="animate__animated animate__zoomIn">Bom tarde!</p>
+                <p className="animate__animated animate__zoomIn">Boa tarde!</p>
             )
         };
         if(hora >= 18) {
@@ -32,7 +32,7 @@ export default function Home() {
     <section id="home" className="home-body">
         <div className="home-gallery">
         <h1 className="title">{authHora()}</h1>
-            <p className="animate__animated animate__zoomIn paragraph home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam id quo, velit mollitia fugit harum minima culpa illo qui corporis, at hic, nesciunt molestias consequatur blanditiis debitis. Eaque, minus tempora.</p>
+            <p className="animate__animated animate__zoomIn paragraph home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam id quo, velit mollitia fugit harum minima culpa illo qui corporis, at hic, nesciunt molestias consequatur blanditiis debitis. Eaque, minus tempora. </p>
         </div>
         <div className="polaroid">
             <div id="picture1" className="animate_animated animate__backInDown box">

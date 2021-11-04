@@ -1,24 +1,29 @@
 .home-body {
     display: flex;
     padding: 3rem;
+    user-select: none;
 }
 .home-gallary{
     width: 25%;
+    
 }
 .home-title {
     text-shadow:
     0.05em 0.05em 0  #eb5783;
     font-size: 52px;
     color: #ffce8d;
-    user-select: none;
+    
+    
 }
 .home-p {
     font-size: 32px;
     width: 35%;
+    
 }
 .paragraph.home {
     margin-top: -1rem;
-    width: 35%;
+    width: 55%;
+    user-select: none;
 }
 .polaroid{
     width: 35%;
@@ -92,4 +97,13 @@
         width: 100%;
     }
 
+    .paragraph.home {
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    .title {
+        text-align: center;
+    }
 }

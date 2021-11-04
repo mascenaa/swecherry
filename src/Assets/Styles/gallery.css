@@ -7,6 +7,7 @@
 
 .title.gallery {
     text-align: center;
+    user-select: none;
 }
 
 .gallery-options{ 
@@ -31,6 +32,7 @@
 .gallery-options--button:hover{
     background: #cfcdcd;
     cursor: pointer;
+    user-select: none;
     
 }
 
@@ -52,6 +54,7 @@
 .columns {
     display: flex;
     flex-direction: column;
+    user-select: none;
     
 }
 

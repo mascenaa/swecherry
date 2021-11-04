@@ -10,6 +10,7 @@
     padding-bottom: 5rem;
     padding-top: 5%;
     align-items: center;
+    user-select: none;
 }
 
 form {
@@ -31,6 +32,7 @@ form {
 
 
 .title-contact {
+    
     text-shadow:
     0.05em 0.05em 0  #eb5783;
     color: #ffce8d;
@@ -76,9 +78,4 @@ form {
     border-radius: 5rem;
     height: 2.5rem;
 
-}
-
-.icons {
-    width: 100px;
-    z-index: 12000;
 }

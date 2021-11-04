@@ -3,7 +3,7 @@ import React from 'react'
 import '../../Assets/Styles/gallery.css'
 import '../../Assets/GlobalStyles/global.css'
 import Box from '../Box/boxGallery'
-
+import Slides from './slides/slides'
 
 
 export default function Gallery() {
@@ -38,6 +38,7 @@ export default function Gallery() {
                     <Box />
                 </div>
             </section>
+            <Slides />
         </section>
     </>
     )
