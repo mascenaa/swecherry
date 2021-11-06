@@ -1,12 +1,13 @@
 .Box {
+    outline-width: 10%;
     text-align: center;
     color: #1a1616;
     width: 10rem;
     height: 10rem;
     padding: 1rem;
     background: #FFFFFF;
-    border: 2px solid #A0CFD4;
+    border: 2px solid #d4a0c4;
     border-radius: 12px;
     margin-bottom: 1rem;
-    
+    margin-left: 1rem;  
 }

@@ -37,11 +37,11 @@ export default function Home() {
         <div className="polaroid">
             <div id="picture1" className="animate_animated animate__backInDown box">
             </div>
-            <div id="picture2" className="box">
+            <div id="picture2" className="animate_animated animate__backInDown box">
             </div>
-            <div id="picture3" className="box">
+            <div id="picture3" className="animate_animated animate__backInDown box">
             </div>
-            <div id="picture4" className="box">
+            <div id="picture4" className="animate_animated animate__backInDown box">
             </div>
         </div>
 

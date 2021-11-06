@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 10rem;
+    text-align: center;
+    border-top: 3px solid rgb(226, 226, 226);
+    background-color: #fafafa;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 0.65rem;
+}
+
+.title.first {
+    color: #3231;
+    font-size: 25px;
+}
+
+.title.copy {
+    font-size: 20px;
+}
+
+#color {
+    color: transparent;
+
+}

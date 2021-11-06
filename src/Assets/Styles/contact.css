@@ -1,16 +1,22 @@
 .form-section {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .Contact {
     background-color: #ffffff;
     border-top: 3px solid #f3f3f3;
-    height: 50vh;
-    padding-bottom: 5rem;
+    height: fit-content;
+    padding-bottom: 0.75rem;
     padding-top: 5%;
     align-items: center;
     user-select: none;
+}
+
+.contacts {
+    margin-top: 2rem;
+    text-align: center;
 }
 
 form {

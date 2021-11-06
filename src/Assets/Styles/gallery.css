@@ -36,7 +36,7 @@
     
 }
 
-.gallery-options--button.active {
+.gallery-options--button::marker {
     border: none;
     background-color: #EBEBF0;
 }
@@ -58,30 +58,13 @@
     
 }
 
-.column1 {
+.column1, .column2, .column3 {
     margin: auto;
     width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 2rem;
-}
-
-.column2 {
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
-}
-
-.column3 {
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 
