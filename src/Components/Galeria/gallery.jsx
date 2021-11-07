@@ -7,16 +7,13 @@ import CustomCakes from './slides/customCakes'
 import Candy from './slides/defaultCandys'
 
 
-
 export default function Gallery() {
     const [etapaAtual, setEtapaAtual] = useState(0)
-
     const defaultCakes = 0
     const customCakes = 1
     const candys = 2
 
     function GaleriaAtual(etapa) {
-
         switch(etapa) {
             case defaultCakes:
                 return <DefaultCakes />
@@ -26,7 +23,7 @@ export default function Gallery() {
                 return <Candy />
 
             default:
-                <p>ERROR</p>
+                console.error("A lista de produtos não foi devidamente carregada, tente novamente em instantes...")
         }
     }
 
@@ -47,18 +44,14 @@ export default function Gallery() {
                             setEtapaAtual(customCakes)
                         }}
                     className="gallery-options--button">Bolos Personalizados</button>
-                   
-                   
                     <button 
                         onClick={() => {
                             setEtapaAtual(candys)
                         }}
                     className="gallery-options--button">Outros Doces</button>
                 </div>
-
-
             <section>
-            {GaleriaAtual(etapaAtual)}
+                {GaleriaAtual(etapaAtual)}
             </section>
         </section>
     </>
